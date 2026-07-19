@@ -23,3 +23,10 @@ You can quickly run the code with the following command:
 bash train.sh
 
 
+## Note
+This work builds upon our previous work [LNLN](https://github.com/Haoyu-ha/LNLN), which was published in NeurIPS 2024.
+## Acknowledgements
+Huge thanks to the authors of the following open-source projects:
+- [MMSA](https://github.com/thuiar/MMSA),
+- [LNLN](https://github.com/Haoyu-ha/LNLN),
+- [P-RMF](https://github.com/aoqzhu/P-RMF).
