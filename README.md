@@ -20,9 +20,9 @@ This work builds upon our previous work [LNLN](https://github.com/Haoyu-ha/LNLN)
 
 ## Acknowledgements
 Huge thanks to the authors of the following open-source projects:
-- [MMSA](https://github.com/thuiar/MMSA),
-- [LNLN](https://github.com/Haoyu-ha/LNLN),
-- [P-RMF](https://github.com/aoqzhu/P-RMF).
+- [MMSA](https://github.com/thuiar/MMSA)
+- [LNLN](https://github.com/Haoyu-ha/LNLN)
+- [P-RMF](https://github.com/aoqzhu/P-RMF)
 
 ## Training
 
