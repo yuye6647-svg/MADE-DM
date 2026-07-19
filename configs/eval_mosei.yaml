@@ -1,0 +1,41 @@
+base:
+  seed: 1111
+  batch_size: 64
+  num_workers: 8
+  train_mode: regression
+  key_eval: Has0_acc_2
+  missing_rate_eval_test: 0
+
+
+dataset:
+  datasetName: mosei
+  dataPath: /media/user/a04954f8-f2f8-41ca-b4e9-4d07d1603697/yy/dataset/CMU-MOSEI/Processed/unaligned_50.pkl
+   
+
+model:    
+  feature_extractor:
+    bert_pretrained: 'bert-base-uncased'
+    input_length: [50, 500, 500]
+    token_length: [8, 8, 8]
+    heads: 8
+    input_dims: [768, 35, 74]
+    hidden_dims: [128, 128, 128]
+    depth: 2
+
+  dmc:
+
+    completeness_check:
+      input_length: 8
+      token_length: 1
+      depth: 2
+      heads: 8
+      input_dim: 128
+      hidden_dim: 128
+
+  reconstructor:
+    input_length: 8
+    depth: 2
+    heads: 8
+    input_dim: 128
+    hidden_dim: 128
+      
