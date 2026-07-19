@@ -3,8 +3,6 @@
 
 Pytorch implementation of the paper:
 
-Tackling Incomplete Data via Missing-Aware Dynamic Enhancement of Dominant Modality for Robust Multimodal Sentiment Analysis
-
 This is a reorganized code, if you find any bugs please contact me. Thanks.
 
 ## Data Preparation
